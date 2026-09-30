@@ -1,0 +1,12 @@
+:root { --paper:#F6F1E7; --card:#FFFDF8; --ink:#2B2620; --ink2:#6B6358; --accent:#8A5A22; }
+@media (prefers-color-scheme: dark) { :root { --paper:#1A1714; --card:#26221D; --ink:#EFE8DC; --ink2:#B3AA9C; --accent:#D9A866; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font: 17px/1.6 Georgia, "Iowan Old Style", "Times New Roman", serif; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+h1 { font-weight: 600; font-size: 2rem; margin: 0 0 4px; }
+h2 { font-variant: small-caps; letter-spacing: .04em; color: var(--ink2); font-size: 1.05rem; margin: 32px 0 8px; }
+p, li { margin: 0 0 12px; }
+.sub { color: var(--ink2); margin-bottom: 28px; }
+.card { background: var(--card); border-radius: 14px; padding: 18px 20px; }
+a { color: var(--accent); }
+footer { color: var(--ink2); font-size: .9rem; margin-top: 40px; }
